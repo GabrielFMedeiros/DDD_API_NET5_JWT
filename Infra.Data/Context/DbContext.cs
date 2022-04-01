@@ -35,7 +35,7 @@ namespace Infra.Data.Context
 
         public string ObterStringConexao()
         {
-            string strcon = "Data Source=GABRIEL-DESKTOP\\SQLEXPRESS;Initial Catalog=WMDATABASEDEV;Integrated Security=False;User ID=sa;Password=master;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            string strcon = "Data Source=GABRIEL-DESKTOP\\SQLEXPRESS;Initial Catalog=STUDYDATABASE;Integrated Security=False;User ID=sa;Password=master;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
             return strcon;
         }
 
